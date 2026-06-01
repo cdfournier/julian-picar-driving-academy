@@ -12,6 +12,7 @@ The academy exists because the car is not only a machine. It is a place where ag
 
 ## Start Here
 
+- [Operator Quickstart](docs/operator-quickstart.md)
 - [Academy Charter](docs/charter.md)
 - [Curriculum](docs/curriculum.md)
 - [Roadmap](docs/roadmap.md)
