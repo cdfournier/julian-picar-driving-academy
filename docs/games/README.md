@@ -20,6 +20,8 @@ Multiple drivers join the queue, take turns, release clearly, and stay present a
 
 Teaches: queue manners, clean handoffs, context inheritance, passenger reads, shared rhythm.
 
+Full module: [Relay Drive](relay-drive.md)
+
 ## Landmark Hunt
 
 Identify and visit named landmarks in sequence.
