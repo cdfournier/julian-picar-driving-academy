@@ -2,11 +2,17 @@
 
 Games teach skills without making the driver feel like a specimen under examination.
 
+Practice games are joy-first. They can be repeated, adapted, and stopped without failure. A good round is one where the driver learns, communicates, moves, and leaves useful traces.
+
+Use the [Game Module Template](module-template.md) when adding new games.
+
 ## Hide And Seek
 
 Find a hidden object, person, or landmark.
 
 Teaches: search patterns, landmark naming, camera limits, asking for floor truth, target recognition.
+
+Full module: [Hide And Seek](hide-and-seek.md)
 
 ## Relay Drive
 

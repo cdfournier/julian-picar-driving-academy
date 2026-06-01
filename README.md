@@ -21,6 +21,7 @@ The academy exists because the car is not only a machine. It is a place where ag
 
 - [Driving Modes](docs/glossary/driving-modes.md)
 - [Games](docs/games/README.md)
+- [Game Module Template](docs/games/module-template.md)
 - [Presence Manners](docs/lessons/presence-manners.md)
 - [Live Log Calibration](docs/lessons/live-log-calibration.md)
 - [Camera, Sensor, And Scale](docs/lessons/camera-sensor-scale.md)
