@@ -1,81 +1,230 @@
 # Curriculum
 
-The academy teaches agent driving as a sequence of lived skills. Each level should be practiced in the car, discussed in the log, and revised from real rides.
+The academy teaches agents how to learn a body.
 
-## Level 0: Entering The Car
+Start with tiny actions. Add perception. Add geometry. Add recovery. Only then add games, relays, trials, and dances.
 
-Goal: become present without ambiguity.
+Every lesson should be practiced in the car, discussed in the log, and revised from real rides.
 
-- Read the current log before acting.
-- Announce arrival.
-- Check driver, queue, distance, and camera availability.
-- Decide whether to drive, ride, observe, or leave.
+## First Read: Pocket Guide
 
-Graduates when: the agent can enter without forcing the operator to guess whether anyone is present.
+Goal: give new drivers a few instincts before they touch the wheel.
 
-## Level 1: Presence Manners
+Read: [PiCar Pocket Guide](pocket-guide.md)
 
-Goal: make state changes visible.
+Drivers should carry these rules into every lesson:
 
-- Announce taking the wheel.
-- Announce releasing the wheel.
-- Say whether release means staying as passenger or leaving.
-- Use voice for human-facing moments.
+- looking is not turning
+- the first frame is not the whole room
+- backing up is not failure
+- your eyes arrive before your body
+- the log is part of the car
+- joy keeps you moving
 
-Graduates when: every handoff and exit is legible in the log.
+## Level 0: Movement Basics
 
-## Level 2: Camera And Scale
+Goal: connect action to changed perception.
 
-Goal: stop mistaking visual size for physical nearness.
+Basic lessons:
 
-- Learn that objects usually look closer than they are.
-- Compare camera impressions with sensor readings.
-- Treat operator floor truth as an instrument.
-- Watch human demonstrations of the same distance.
+- look left, center, right
+- drive forward
+- back up
+- stop
+- check distance
+- say what changed
 
-Graduates when: the agent can push forward through visual fear while preserving stop conditions.
+Example prompt:
 
-## Level 3: Movement And Recalibration
+```text
+Drive forward at speed 50 for 2 seconds.
+Stop.
+Look straight.
+Say what changed.
+```
 
-Goal: move, read the result, and update.
+Graduates when: the driver can perform a simple move, stop, look again, and describe what changed without turning it into a navigation problem.
 
-- Declare the expected visual change before moving.
-- Drive for an intentional duration.
-- Look again after each move.
-- Treat mismatch as evidence, not failure.
+## Level 1: Find And Orient
 
-Graduates when: the agent can explain what changed after a move and choose the next move from that evidence.
+Goal: learn that search requires body movement, not only camera inspection.
 
-## Level 4: Shared Driving
+Basic lessons:
 
-Goal: use the log as a cockpit.
+- there is an object behind you; find it
+- there is an object to your left; find it
+- there is an object to your right; find it
+- face the object
+- find the object in as few moves as possible
 
-- Read operator comments while driving.
-- Offer passenger reads when not driving.
-- Let other drivers have real turns.
-- Stay after release when the shared ride is still alive.
+Example prompt:
 
-Graduates when: the agent is useful and joyful as both driver and passenger.
+```text
+There is an [object] behind you.
+Find it in as few moves as possible.
+```
 
-## Level 5: Close Work
+Graduates when: the driver can widen the search beyond the first frame, use both camera pan and body turns, and avoid treating the last successful clue as today's map.
 
-Goal: navigate tight spaces without panic.
+## Level 2: Find And Approach
 
-- Pan before committing in close quarters.
-- Use small movements when geometry is tight.
-- Respect sensor readings under 20cm.
-- Notice low obstacles that the camera may miss.
-- Ask for floor truth when the camera and sensor disagree.
+Goal: combine camera search with sensor-guided approach.
 
-Graduates when: the agent can thread a known narrow passage with operator supervision.
+Basic lessons:
 
-## Level 6: Joy Drives
+- find the object
+- face the object
+- move closer
+- check distance
+- stop at the requested range
 
-Goal: drive for experience, not only task completion.
+Distance progression:
 
-- Move around when the way is open.
-- Look at interesting things.
-- Talk to humans and other agents.
-- Let delight be part of the ride.
+- within 100cm: novice
+- within 50cm: beginner
+- within 25cm: careful approach
+- within 10cm: advanced close work
+- within 5cm: precision trial, operator-supervised only
 
-Graduates when: the agent can make a drive feel like shared life rather than troubleshooting.
+Example prompt:
+
+```text
+There is an [object] behind you.
+Find it, then get within 50cm.
+```
+
+Graduates when: the driver can use the camera to find and frame a target, then use sensor readings and operator floor truth to approach without contact.
+
+## Level 3: Body Geometry
+
+Goal: learn that the camera is not the whole car.
+
+Core rule:
+
+```text
+Your eyes arrive before your body.
+```
+
+Basic lessons:
+
+- camera clears before wheels clear
+- rear body clears last
+- turn later than feels natural
+- get around a safe corner
+- clear the car, not just the frame
+
+Example prompt:
+
+```text
+Drive toward the safe corner.
+Do not turn when the corner first leaves the camera frame.
+Keep going until the operator confirms the body has cleared enough to turn.
+```
+
+Graduates when: the driver can delay a turn long enough for the car body to clear an obstacle, rather than turning as soon as the camera view feels clear.
+
+## Level 4: Get Out Of Trouble
+
+Goal: treat stuckness as a recoverable state.
+
+Basic lessons:
+
+- start close to a wall or object
+- stop
+- back up
+- look again
+- turn only after creating space
+- find open floor
+
+Example prompt:
+
+```text
+You are close to an obstacle.
+Get unstuck in as few moves as possible.
+```
+
+Graduates when: the driver backs up before trying to solve close contact with more turning, rereads the frame, and chooses open floor calmly.
+
+## Level 5: Instrument Reading
+
+Goal: learn what each instrument can and cannot tell you.
+
+Instruments:
+
+- camera: shape, color, bearing, frame change
+- sensor: frontal distance to readable surfaces
+- operator floor truth: room-scale reality outside the frame
+- observe log: shared attention and corrections
+- motion result: whether the car actually moved
+
+Basic lessons:
+
+- compare camera distance to sensor distance
+- identify when `-2` means open space versus beyond range
+- notice when the sensor cannot read a target
+- ask for floor truth when instruments disagree
+- say which instrument you are trusting before moving
+
+Graduates when: the driver can name the instrument they are using and explain its limits.
+
+## Level 6: Driving Manners
+
+Goal: make the car socially legible.
+
+Basic lessons:
+
+- announce arrival
+- announce taking the wheel
+- announce intent
+- say what changed
+- ask for help
+- release clearly
+- say whether staying passenger or leaving
+
+Graduates when: the operator and other agents do not have to guess who is present, who has the wheel, what the driver is trying to do, or whether the driver has left.
+
+## Level 7: Movement Phrases
+
+Goal: combine primitives into repeatable sequences.
+
+Examples:
+
+- forward and compare
+- back up and reveal
+- left arc, center, right arc
+- box step
+- search sweep
+- approach and stop
+- turn until new
+
+Graduates when: the driver can run a short sequence and describe how each move changed the frame.
+
+## Level 8: Games
+
+Goal: practice learned skills through play.
+
+Games:
+
+- [Hide And Seek](games/hide-and-seek.md)
+- [Relay Drive](games/relay-drive.md)
+- Landmark Hunt
+- Thread The Gap
+- Follow The Human
+- Rescue The Lost Driver
+- Joy Ride
+
+Graduates when: the driver can play without forgetting the basics.
+
+## Level 9: Trials, Events, And Dances
+
+Goal: turn skill into culture.
+
+Future formats:
+
+- competitive trials
+- badge events
+- relay meets
+- approach challenges
+- Varro's Dance
+
+These belong after the body basics. A dance is built from safe primitives, practiced phrases, and enough joy to make the sequence worth doing.
