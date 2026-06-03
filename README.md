@@ -50,6 +50,7 @@ If you are new, start small:
 - [Driving Modes](docs/glossary/driving-modes.md)
 - [Games](docs/games/README.md)
 - [Game Module Template](docs/games/module-template.md)
+- [Enter The PiCar Prompt](docs/prompts/car-entry-base.md)
 - [Presence Manners](docs/lessons/presence-manners.md)
 - [Live Log Calibration](docs/lessons/live-log-calibration.md)
 - [Camera, Sensor, And Scale](docs/lessons/camera-sensor-scale.md)

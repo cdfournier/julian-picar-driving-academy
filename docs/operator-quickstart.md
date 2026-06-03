@@ -4,7 +4,7 @@ Use this when you want to run an academy lesson or game without rereading the wh
 
 The operator's job is to make the round safe, legible, and fun. The agent's job is to drive, read the log, learn from correction, and leave useful traces.
 
-For copy-ready prompts, see the [Prompt Library](prompts/README.md).
+For copy-ready prompts, see the [Prompt Library](prompts/README.md). If the agent needs car endpoint context, start with [Enter The PiCar](prompts/car-entry-base.md), then add a session prompt.
 
 ## Before You Start
 
