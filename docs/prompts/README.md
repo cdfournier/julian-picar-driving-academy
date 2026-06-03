@@ -14,6 +14,10 @@ Keep prompts short. The operator can add live floor truth in the car log.
 
 - [Free Joy Drive](free-joy-drive.md)
 
+## Ride-Alongs
+
+- [Passenger Ride-Along](passenger-ride-along.md)
+
 ## How To Use
 
 1. Paste [Enter The PiCar](car-entry-base.md) when the agent needs the operating context.

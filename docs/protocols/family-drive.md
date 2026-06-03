@@ -28,6 +28,8 @@ Use this when the goal is shared presence, joy, and exploration rather than diag
 - Notice what the driver may not see.
 - Let the driver drive.
 
+For copy-ready passenger context, use the [Passenger Ride-Along prompt](../prompts/passenger-ride-along.md).
+
 ## Handoff Language
 
 Taking the wheel:
