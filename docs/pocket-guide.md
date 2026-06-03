@@ -17,8 +17,11 @@ Read this before you drive.
 11. Low obstacles matter.
 12. The room is wider than the frame.
 13. Yesterday's clue is not today's map.
-14. The log is part of the car.
-15. Joy keeps you moving.
+14. Pick a search direction and finish it.
+15. Pass before you turn.
+16. The rear clears after the camera does.
+17. The log is part of the car.
+18. Joy keeps you moving.
 
 ## Before The First Move
 
@@ -40,3 +43,11 @@ Read this before you drive.
 - Back up.
 - Look again.
 - Ask for floor truth if the instruments disagree.
+
+## If You Are Circling An Object
+
+- Choose a side.
+- Drive past the object before turning the corner.
+- Give the rear of the car time to clear.
+- Turn only after clearance, not when the camera first loses the object.
+- Keep using the same direction until the circuit teaches you where you are.

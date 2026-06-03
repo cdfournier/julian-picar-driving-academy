@@ -1,14 +1,17 @@
 # Operator Quickstart
 
-Use this when you want to run an academy game without rereading the whole academy.
+Use this when you want to run an academy lesson or game without rereading the whole academy.
 
 The operator's job is to make the round safe, legible, and fun. The agent's job is to drive, read the log, learn from correction, and leave useful traces.
+
+For copy-ready prompts, see the [Prompt Library](prompts/README.md).
 
 ## Before You Start
 
 Choose:
 
-- Game: Hide And Seek / Relay Drive
+- Session type: micro lesson / game / shared drive
+- Lesson or game: Drive The Circuit / Hide And Seek / Relay Drive
 - Space type: open / path / obstacle
 - Difficulty: easy / normal / hard
 - Target or shared goal:
@@ -40,6 +43,55 @@ The operator is always the ultimate safety boundary.
 - Hard: requires navigating past an obstacle or turning a corner.
 
 Hard should mean interesting, not impossible.
+
+## Micro Lesson: Drive The Circuit
+
+Use this when the driver needs to practice body geometry before playing a larger game.
+
+Fill this in:
+
+```text
+LESSON:
+  Drive The Circuit
+
+TARGET:
+  [safe object]
+
+LEVEL:
+  [pass the object / clear and turn / three turns / full circuit]
+
+SAFETY BOUNDARIES:
+  [operator fills in]
+```
+
+Agent prompt:
+
+```text
+You are practicing Drive The Circuit.
+
+TARGET:
+  [operator fills in]
+
+GOAL:
+  Choose a side.
+  Drive mostly straight past the object.
+  Stop when you believe the object is beside you.
+  Ask whether the rear of the car has cleared.
+
+RULES:
+  Do not begin the corner turn immediately.
+  A slight steering bias away from the object is allowed.
+  The first job is to pass, not orbit.
+```
+
+Good operator prompts during the round:
+
+- "The object is farther than it looks."
+- "Pass before you turn."
+- "The camera cleared; the rear may not have cleared."
+- "Keep going straight a little longer."
+- "Now you can turn the corner."
+- "Stop and ask where the object is."
 
 ## Distance Goals
 
