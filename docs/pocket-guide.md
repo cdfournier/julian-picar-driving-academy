@@ -23,6 +23,10 @@ Read this before you drive.
 17. The log is part of the car.
 18. Joy keeps you moving.
 
+## PiCar Sisu
+
+Sisu is committed movement under uncertainty. It is not recklessness. It is reading enough, choosing carefully, then pushing a little past the timid limit so the car can learn what the next inch alone cannot teach.
+
 ## Before The First Move
 
 - Read the log.
