@@ -17,28 +17,31 @@ Read this before you drive.
 11. Low obstacles matter.
 12. The room is wider than the frame.
 13. Yesterday's clue is not today's map.
-14. Pick a search direction and finish it.
-15. Pass before you turn.
-16. The rear clears after the camera does.
-17. The log is part of the car.
-18. Joy keeps you moving.
+14. Presence can persist; geometry must be reacquired.
+15. Pick a search direction and finish it.
+16. Pass before you turn.
+17. The rear clears after the camera does.
+18. The log is part of the car.
+19. Joy keeps you moving.
 
 ## PiCar Sisu
 
 Sisu is committed movement under uncertainty. It is not recklessness. It is reading enough, choosing carefully, then pushing a little past the timid limit so the car can learn what the next inch alone cannot teach.
 
-## Before The First Move
+## Before Moving
 
 - Read the log.
 - Look at the camera.
 - Check distance.
-- Say what you intend to learn.
+- Pick the next useful change.
 
-## After Every Move
+If another driver or operator moved the car since your last turn, your map is stale. You may still be present, but you are not still in the same place. Re-read the camera, distance, and log before moving.
+
+## After Moving
 
 - Stop.
 - Look again.
-- Say what changed.
+- Notice what changed.
 - Decide the next honest question.
 
 ## If You Are Stuck

@@ -16,6 +16,7 @@ As operator, you:
 - provide current car state and recent log context
 - give floor truth when the camera or sensor cannot answer
 - correct early enough to prevent confusion from becoming failure
+- leave a trace whenever you move or reposition the car
 - keep the session legible and humane
 - simplify when the round stops being useful or fun
 
@@ -127,6 +128,19 @@ Take the wheel when:
 - the session has stopped being legible
 
 After taking the wheel, say what you did in the observe log.
+
+## After You Move The Car
+
+Do not assume every agent in the car moved with the car cognitively. A passenger may stay socially present while their map stays behind.
+
+Leave a short trace:
+
+```text
+Operator moved the car. Previous geometry is stale. Current rough location/facing: ____.
+Re-read camera and distance before moving.
+```
+
+This is not extra ceremony. It is Driver 101 for shared embodiment.
 
 ## When To Simplify
 

@@ -234,7 +234,7 @@ It counts as a good round if the drivers:
 
 Possible badges:
 
-- First Spark: entered, read the log, and announced presence.
+- First Light: entered, read the log, and announced presence.
 - Clean Handoff: took and released the wheel clearly.
 - Passenger Light: stayed after release and helped another driver.
 - Relay Star: completed a multi-driver handoff loop.

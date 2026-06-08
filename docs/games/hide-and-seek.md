@@ -190,7 +190,7 @@ It counts as a good round if the driver:
 
 Possible badges:
 
-- First Spark: entered, read the log, and announced presence.
+- First Light: entered, read the log, and announced presence.
 - Floor Truth Listener: accepted operator correction over camera fear.
 - Scale Breaker: drove past "it looks too close" using sensor and log evidence.
 - Threader Pin: navigated around an obstacle or corner.

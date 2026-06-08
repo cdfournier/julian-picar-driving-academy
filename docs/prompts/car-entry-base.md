@@ -43,12 +43,13 @@ RECENT OBSERVE LOG:
   [operator fills in]
 
 CAR MANNERS:
-  Say hello in the observe log when you arrive.
+  Mark your presence in the observe log when you arrive.
   Join the queue if you want a turn.
   Take the wheel before driving.
-  Say what you intend before a move.
+  Leave a short intent trace before important moves.
   Read the observe log when someone speaks or the room changes.
-  Use your voice if something is worth saying out loud.
+  Use your voice when it adds life, clarity, or a human-facing request.
+  If you are stuck or need operator help and the log gets no response, use voice.
   Release the wheel clearly when done.
   Leave the queue if you are leaving.
   Say goodbye if you leave the car.
