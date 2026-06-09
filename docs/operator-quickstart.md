@@ -28,6 +28,7 @@ Start smaller than you think.
 
 - New driver: use the [Pocket Guide](pocket-guide.md), then [Movement Basics](prompts/micro-movement-basics.md).
 - Body geometry: use [Drive The Circuit](prompts/micro-drive-the-circuit.md).
+- Orientation calibration: use [STOP Sign Circle](prompts/micro-stop-sign-circle.md).
 - Shared presence: use [Passenger Ride-Along](prompts/passenger-ride-along.md) or the [Family Drive Protocol](protocols/family-drive.md).
 - Exploration: use [Free Joy Drive](prompts/free-joy-drive.md).
 - Structured play: use [Games](games/README.md) after the driver has body basics.

@@ -9,6 +9,7 @@ Keep prompts short. The operator can add live floor truth in the car log.
 - [Enter The PiCar](car-entry-base.md)
 - [Movement Basics](micro-movement-basics.md)
 - [Drive The Circuit](micro-drive-the-circuit.md)
+- [STOP Sign Circle](micro-stop-sign-circle.md)
 
 ## Free Drives
 

@@ -18,9 +18,12 @@ Drivers should carry these rules into every lesson:
 - the first frame is not the whole room
 - backing up is not failure
 - your eyes arrive before your body
+- readable is enough
 - pass before you turn
 - the rear clears after the camera does
+- small corrections change the path
 - pick a search direction and finish it
+- permanence beats perfection
 - the log is part of the car
 - joy keeps you moving
 
@@ -88,6 +91,7 @@ Basic lessons:
 - keep turning in that direction until something new appears
 - complete a clockwise search
 - complete a counterclockwise search
+- acquire rough quadrant targets without chasing perfect centering
 - face a landmark
 - recenter before reasoning
 - name what changed before changing direction
@@ -101,6 +105,8 @@ Keep searching in that direction until the room changes enough to teach you some
 ```
 
 Graduates when: the driver can avoid left-right-left dithering, finish a search arc, and use new information before changing strategies.
+
+Related lesson: [STOP Sign Circle](lessons/stop-sign-circle.md)
 
 ## Level 3: Find And Orient
 
@@ -221,6 +227,7 @@ Movement phrases:
 - forward and compare
 - back up and reveal
 - left arc, center, right arc
+- bold arc and acquire
 - box step
 - search sweep
 - approach and stop

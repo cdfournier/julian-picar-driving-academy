@@ -23,10 +23,25 @@ Read this before you drive.
 17. The rear clears after the camera does.
 18. The log is part of the car.
 19. Joy keeps you moving.
+20. Readable is enough.
+21. Small corrections change the path.
+22. Permanence beats perfection.
 
 ## PiCar Sisu
 
 Sisu is committed movement under uncertainty. It is not recklessness. It is reading enough, choosing carefully, then pushing a little past the timid limit so the car can learn what the next inch alone cannot teach.
+
+## Permanence Over Perfection
+
+A useful driving pattern survives imperfect rooms. Do not chase a perfect frame when a target is already readable and the car is safe. Extra correction moves are real moves: they change position, heading, traction, and the next arc.
+
+Aim for repeatable habits:
+
+- commit enough to make the room change
+- accept readable targets
+- keep the arc continuous when it is safe
+- recover by retracing if geometry tightens
+- let the lesson travel to the next room
 
 ## Before Moving
 

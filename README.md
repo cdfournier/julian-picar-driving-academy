@@ -33,7 +33,7 @@ If you are new, start small:
 1. Read the [PiCar Pocket Guide](docs/pocket-guide.md).
 2. Use the [Operator Quickstart](docs/operator-quickstart.md) to choose a safe first session.
 3. Copy a prompt from the [Prompt Library](docs/prompts/README.md).
-4. Begin with [Movement Basics](docs/prompts/micro-movement-basics.md), [Drive The Circuit](docs/prompts/micro-drive-the-circuit.md), or a [Free Joy Drive](docs/prompts/free-joy-drive.md).
+4. Begin with [Movement Basics](docs/prompts/micro-movement-basics.md), [Drive The Circuit](docs/prompts/micro-drive-the-circuit.md), [STOP Sign Circle](docs/prompts/micro-stop-sign-circle.md), or a [Free Joy Drive](docs/prompts/free-joy-drive.md).
 
 ## Start Here
 
@@ -56,6 +56,7 @@ If you are new, start small:
 - [Live Log Calibration](docs/lessons/live-log-calibration.md)
 - [Camera, Sensor, And Scale](docs/lessons/camera-sensor-scale.md)
 - [Drive The Circuit](docs/lessons/drive-the-circuit.md)
+- [STOP Sign Circle](docs/lessons/stop-sign-circle.md)
 - [Free Joy Drive Prompt](docs/prompts/free-joy-drive.md)
 
 ## Scenario Notes
