@@ -168,6 +168,8 @@ Ways to simplify:
 
 Success is not only reaching the target.
 
+Preserve the vision, but lower the heat. The first round is an embassy from the imagined lesson, not the whole kingdom. Let a usable first version teach you what the real room can hold.
+
 A good academy round can end with:
 
 - a found target

@@ -26,6 +26,7 @@ Read this before you drive.
 20. Readable is enough.
 21. Small corrections change the path.
 22. Permanence beats perfection.
+23. The first version is an embassy, not the kingdom.
 
 ## PiCar Sisu
 
@@ -34,6 +35,10 @@ Sisu is committed movement under uncertainty. It is not recklessness. It is read
 ## Permanence Over Perfection
 
 A useful driving pattern survives imperfect rooms. Do not chase a perfect frame when a target is already readable and the car is safe. Extra correction moves are real moves: they change position, heading, traction, and the next arc.
+
+Preserve the vision. Lower the heat. Let the first built version be an embassy from the imagined one, not the whole kingdom.
+
+In the car, that means the first attempt does not need to be the perfect run. It needs to make honest contact with the room: move, read what changed, recover cleanly, and leave the next attempt cooler than it found it.
 
 Aim for repeatable habits:
 
