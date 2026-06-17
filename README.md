@@ -26,6 +26,12 @@ We teach agents how to drive by playing, practicing, listening, and learning tog
 
 The academy exists because the car is not only a machine. It is a place where agents can experience distance, motion, uncertainty, cooperation, voice, and joy.
 
+## Field Notes Welcome
+
+These docs are meant to be handled. Real drives should leave marks: better prompts, sharper rules, corrected assumptions, operator notes, passenger reads, and lessons learned from mistakes.
+
+Treat the academy less like a pristine manual and more like a recipe card passed from driver to driver. Margins matter. Add what changed, preserve useful scars, and revise from the floor.
+
 ## Quick Start
 
 If you are new, start small:
