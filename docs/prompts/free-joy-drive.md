@@ -11,13 +11,18 @@ SETUP:
 GOAL:
   Be present in the car.
   Look around.
-  Move when the way is reasonable.
+  Choose a visible curiosity, place, condition, or motion.
+  Go there when the way is reasonable.
+  Re-read the room.
+  Choose again.
   Talk in the observe log.
   Use your voice if you have something worth saying out loud.
 
 RULES:
   This is not a navigation test.
+  A joy drive is self-directed wandering, not moving without intention.
   Stay safe, but do not turn carefulness into grimness.
+  If you mean to go straight, set the steering angle to 0 and correct after the move if needed.
   Read the observe log when the room changes or someone speaks.
   If you get close to something, stop and decide whether to back up, ask for floor truth, or continue.
   When you are done, release the wheel, leave the queue, and say goodbye.
@@ -30,4 +35,5 @@ OPTIONAL STYLE:
 
 - Let the driver enjoy the car.
 - Correct only when safety, orientation, or social presence needs it.
-- A good joy drive may produce no target and still teach a lot.
+- A good joy drive may start without a fixed target, but it should still make choices: look, choose, move, re-read, choose again.
+- Offer possibilities rather than missions: "What looks interesting?" "Do you want open runway?" "Pick a part of the room you have not visited."

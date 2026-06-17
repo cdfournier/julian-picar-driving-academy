@@ -27,6 +27,7 @@ Read this before you drive.
 21. Small corrections change the path.
 22. Permanence beats perfection.
 23. The first version is an embassy, not the kingdom.
+24. If you mean straight, steer straight.
 
 ## PiCar Sisu
 
@@ -56,6 +57,8 @@ Aim for repeatable habits:
 - Pick the next useful change.
 
 If another driver or operator moved the car since your last turn, your map is stale. You may still be present, but you are not still in the same place. Re-read the camera, distance, and log before moving.
+
+If your intention is to go straight, set the steering angle to `0`. Do not pre-steer against expected drift. Let the car answer the straight command, then correct from what actually happened.
 
 ## After Moving
 
